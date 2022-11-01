@@ -18,5 +18,5 @@ public class Robot {
       public void printInfo() {
         System.out.println("The robot is size " + size);
         System.out.println("The robot is shape " + shape);
-      }
+    }
 }

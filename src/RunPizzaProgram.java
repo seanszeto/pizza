@@ -7,11 +7,13 @@ public class RunPizzaProgram {
 
     public RunPizzaProgram(){
         Pizza pepperoni;
-        pepperoni = new Pizza(6,"pepperoni","");
+        pepperoni = new Pizza(6,"pepperoni",true);
         pepperoni.printInfo();
 
         Pizza hawaiian;
-        hawaiian = new Pizza(10,"hawaiian","no");
+        hawaiian = new Pizza(10,"hawaiian",false);
         hawaiian.printInfo();
+
+
     }
 }
