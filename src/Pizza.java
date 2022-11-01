@@ -4,9 +4,9 @@ public class Pizza {
 
     public int diameter;
     public String type;
-    public boolean sauce;
+    public String sauce;
 
-    public Pizza(int pDiameter, String pType, boolean pSauce){
+    public Pizza(int pDiameter, String pType, String pSauce){
         diameter = pDiameter;
         type = pType;
         sauce = pSauce;
@@ -15,6 +15,6 @@ public class Pizza {
     public void printInfo(){
         System.out.println("The pizza has a diameter of " + diameter + " inches.");
         System.out.println("It is a " + type + " pizza.");
-        System.out.println("It has " + sauce + "sauce.");
+        System.out.println("It has " + sauce + " sauce.");
     }
 }
